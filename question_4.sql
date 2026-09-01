@@ -1,5 +1,7 @@
 -- Question Link: https://datalemur.com/questions/final-account-balance
 
+-- Solution:
+
 SELECT account_id,
 SUM(CASE WHEN
       transaction_type = 'Deposit' THEN amount
